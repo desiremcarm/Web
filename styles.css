@@ -46,6 +46,10 @@ p {
   iframe {
     width: 100%;
   }
+
+  body {
+    padding: 0.8em;
+  }
 }
 
 article {
