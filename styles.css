@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", serif;
+}
+
+body {
+  padding: 2em;
+}
+
+.me {
+  width: 130px;
+}
+
+p {
+  text-align: left;
+}
+
+.hello {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  align-items: center;
+  gap: 12px;
+}
+
+.favs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .favs {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+article {
+  border: 1px solid #fff2f2;
+}
+
+ul li {
+  list-style-type: none !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tags {
+  padding: 1em;
+}
+
+.tag {
+  text-align: center;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #88143b;
+  background-color: #f9dbdf;
+  border-radius: 50px;
+}
+
+.sayHi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sayHi article {
+  flex-grow: 1;
+}
+
+footer p,
+.mail {
+  display: block;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.hello_world p {
+  margin-left: 15px;
+}
