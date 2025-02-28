@@ -1,101 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-body,
+body {
+  font-family: "Quicksand", serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Quicksand", serif;
+  font-family: "Lato", serif !important;
 }
 
-body {
-  padding: 2em;
+nav {
+  width: fit-content;
+  background-color: #4635b1;
+  border-radius: 50px;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.me {
-  width: 130px;
+li span {
+  color: #f3f8ff;
 }
 
-p {
-  text-align: left;
+img {
+  transition: border-bottom 0.3s ease;
 }
 
-.hello {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1.5em;
-  align-items: center;
-  gap: 12px;
+a {
+  text-decoration: none;
+  transition: color 0.3s ease !important;
 }
 
-.favs {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
+a:hover {
+  color: #f3f8ff;
 }
 
-@media only screen and (max-width: 600px) {
-  .favs {
-    flex-direction: column;
-  }
-  iframe {
-    width: 100%;
-  }
-
-  body {
-    padding: 0.8em;
-  }
+li img {
+  display: inline-block;
+  width: 25px;
+  border-bottom: 2px solid transparent;
 }
 
-article {
-  border: 1px solid #fff2f2;
+nav ul li img:hover {
+  border-bottom: 2px solid #f3f8ff;
+}
+
+.welcome {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.intro {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.holder {
+  padding: 15px;
+}
+
+#hobbies li {
+  display: inline-block;
+  background-color: #655cd6;
+  padding: 12px;
+  border-radius: 25px;
+  color: white;
 }
 
 ul li {
   list-style-type: none !important;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
-.tags {
-  padding: 1em;
+li img {
+  margin-right: 10px;
 }
 
-.tag {
-  text-align: center;
-  padding: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  color: #88143b;
-  background-color: #f9dbdf;
-  border-radius: 50px;
-}
-
-.sayHi {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.sayHi article {
-  flex-grow: 1;
-}
-
-footer p,
-.mail {
-  display: block;
+footer {
   text-align: center;
 }
 
-img {
-  width: 100%;
+article {
+  border: 1px solid #6528f7;
 }
 
-.hello_world p {
-  margin-left: 15px;
+p img {
+  width: 20px;
+  margin-right: 10px;
 }

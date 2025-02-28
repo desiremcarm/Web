@@ -1,290 +1,224 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
     <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
-    >
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <title>👩🏻‍💻 Devsiré</title>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    />
+    <title>Document</title>
   </head>
   <body>
-
-    <main>
-
-        <!-- BANNER -->
-        <article>
-            <div class="hello">
-                <img class="me" src="img/hello.png" alt="A cute minimalistic drawing representing me" />
-                <div>
-                    <p>
-                    Welcome to my page ✨</p>
-                    <hr>
-                    <a data-tooltip="Visit my LinkedIn" href="https://www.linkedin.com/in/desire-m-carmona/
-                    ">LinkedIn</a>
-                    ·
-                    <a data-tooltip="Visit my Github" href="https://github.com/desiremcarm
-                    ">Github</a>
-                    ·
-                    <a data-tooltip="Visit my Github" href="mailto:hello@desiredev.es
-                    ">Mail</a>
-                </div>
-            <div>
-        </article>
-    
-        <!-- PRESENTATION/SUMMARY -->
-        <div class="sayHi">
-    
-            <article class="hello_world">
-                <h3 class="pico-color-pink-500">
-                    Hello, world! 👋🏻
-                </h3>
-                <hr>
-                <p>
-                    My name's <b>Desiré</b>, nice to e-meet you!
-                </p>
-                <p>
-                    I've been on the tech field for quite some time <br> (7 years!)
-                    working in all kind of different areas.
-                </p>
-                <p>
-                    I am an active advocate for the best practices on <br>
-                    software development and design. I've led workshops, <br>
-                    lectures, talks, and classes on the subject, <br>
-                    as well as written technical guides.
-                </p>
-                <p>
-                    I have collaborated with organizations such as: <br> WTM,
-                    Beyond the game, Geekshubs,<br> MentorCruise, SocraTech and others.
-                </p>
-                <p>
-                    My <b>current goal</b> is to join the Cybersecurity <br>
-                    field and focus the rest of my career alongside <br> the cyberforces 🛡️
-                </p>
-            </article>
-
-            <article>
-                <h3 class="pico-color-pink-500">
-                    About my experience
-                </h3>
-                <hr>
-                <ul>
-                    <li>
-                        🔒 Cybersecurity consultant
-                    </li>
-                    <li>
-                        🎮 Game development (<a href=https://play.google.com/store/apps/details?id=com.activision.callofduty.warzone&hl=es">Call of Duty ➡️</a>)
-                    </li>
-                    <li>
-                        💻 Web development
-                    </li>
-                    <li>
-                        👩🏻‍🏫 Teacher & instructor <a href="https://www.linkedin.com/learning/instructors/desire-marron-carmona">(My courses ➡️)</a>
-                    </li>
-                    <li>
-                        🔌 IoT & Big Data development
-                    </li>
-                    <li>
-                        👨🏻‍💼 Private software developer (Airports, <br> eCommerces, army, hospitals)
-                    </li>
-                    <li>
-                        📱 Mobile development
-                    </li>
-                    <li>
-                        🎨 UI/UX Engineer
-                    </li>
-                    <li>
-                        🥐 I worked in a bakery for 10 years <br>
-                        before joining the tech field!
-                    </li>
-                </ul>
-            </article>
-    
-        </div>
-    
-        <!-- ABOUT ME INFO -->
-         <article>
-            
-        <details>
-            <summary role="button" class="outline contrast pico-color-pink-450"><b>About me </b>✨</summary>
-            <hr>
-            <h6>Hobbies</h6>
-            <div class="favs">
-                <span class="tag">Writing ✍🏻</span>
-                <span class="tag">Reading 📖</span>
-                <span class="tag">Exercise 🏃🏻‍➡️</span>
-                <span class="tag">Plant mom 🌱</span>
-                <span class="tag">Gaming 🎮</span>
-            </div>
-            <br>
-            <h6>Favorite songs</h6>
-            <div class="favs">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3M1H1CWjrSq7nxABHc8EXv?utm_source=generator" width="30%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/319J2YqAVDmQXpUJGCxDkv?utm_source=generator" width="30%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5KDcHol0FbJZCmNivYabkJ?utm_source=generator" width="30%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
-            <hr>
-        </details>
-        
-        <details>
-        <summary role="button" class="outline contrast pico-color-pink-450"><b>Achievements 🏆</b></summary>
-        <hr>
-        <h6>
-            Things I'm super proud of 🚀
-        </h6>
+    <!-- NAV -->
+    <div class="container-fluid">
+      <nav>
         <ul>
-            <li>
-                💖 In 2017 I joined the tech industry <b>as a self-taught</b>
-            </li>
-            <li>
-                💖 Baptized as "the documentation ninja" (Did I mention already <b>I love creating docs and guides?</b>)
-            </li>
-            <li>
-                💖 Led many juniors on my previous jobs! (They were amazing padawans 🫂)
-            </li>
-            <li>
-                💖 I achieved my dream of <b>developing and releasing an AAA game</b>. Look, mom! My name is on the credits!
-            </li>
-            <li>
-                💖 I helped improve workflows and processes in all my previous jobs. Communication is the key!
-            </li>
-            <li>
-                💖 I actually <b>worked in a bakery for 10 years</b> before joining the tech industry 🥐 (remember I joined as a self-taught? I was studying IT on my spare time while I was selling croissants)
-            </li>
-            <li>
-                💖 A girl told me she decided to pursue a career in IT because she felt inspired by me (and I cried a little)
-            </li>
-            <li>
-                💖 A dad told me his daughter (8y) wanted to become a game developer because she wanted to be like me (and I cried all night)
-            </li>
-            <li>
-                💖 Fun fact: my first game ever (Space Walk Shooter, listed below) <b>got 1.700 views, over 580 complete sessions and some small benefits on donations</b>, forever grateful 🥹
-            </li>
+          <li>
+            <span>Desiré🦄</span>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#experience">experience</a>
+          </li>
+          <li>
+            <a href="https://github.com/desiremcarm">
+              <img src="imgs/github.svg" alt="Github icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/desire-m-carmona/">
+              <img src="imgs/linkedin.svg" alt="Linkedin icon" />
+            </a>
+          </li>
         </ul>
-        <hr>
+      </nav>
+    </div>
+    <!-- /NAV -->
+
+    <!-- WELCOME BANNER -->
+    <div class="container-fluid welcome">
+      <img src="imgs/hi.png" alt="Web welcome banner" />
+    </div>
+    <!-- /WELCOME BANNER -->
+
+    <div class="container">
+      <div class="holder">
+        <!-- About me -->
+        <details id="about" open>
+          <summary role="button" class="pico-background-indigo-600">
+            <b>About me 🙌🏻</b>
+          </summary>
+          <p>Nice to e-meet you!</p>
+          <p>
+            I'm a developer with <b>over 7+ years of experience</b> in different
+            fields, to name a few: <br />
+            👮🏻‍♂️ Security, 🏥 Health, 🎮 Videogames (Call of Duty), 🏪 eCommcerces
+            and more!
+          </p>
+          <p>
+            I also work as a <b>LinkedIn Learning instructor</b>, being an
+            active advocate for the best practices on software development and
+            design. I've led workshops, lectures, talks, and classes on the
+            subject, as well as written technical guides.
+          </p>
+          <p>
+            🎯 My current goal is <b>to join the Cybersecurity field</b> and
+            focus the rest of my career alongside the cyberforces 🛡️
+          </p>
+          <h4 class="pico-color-pink-450">📌 Hobbies</h4>
+          <ul id="hobbies">
+            <li>✍🏻 Write</li>
+            <li>📖 Read</li>
+            <li>🤸🏻‍♀️ Exercise</li>
+            <li>🎮 Playing videogames</li>
+            <li>🧙🏻 DnD with friends</li>
+          </ul>
+          <h4 class="pico-color-pink-450">📌 Favorite song</h4>
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/3M1H1CWjrSq7nxABHc8EXv?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
         </details>
 
+        <!-- Experience -->
+        <details id="experience">
+          <summary role="button" class="pico-background-indigo-600">
+            <b>Most revelant experience 💼</b>
+          </summary>
+
+          <article>
+            <h4 class="pico-color-pink-450">Software developer</h4>
+            <p>
+              <img src="imgs/digital.jpeg" alt="Digital Legends logo" />
+              <b>Activision | 06 2022 - 08 2024</b>
+            </p>
+            <hr />
+            <p>Main UI & Frontend developer of Call of Duty: Warzone Mobile.</p>
+            <ul>
+              <li>
+                🎖️ Designed and implemented a
+                <b
+                  >highly scalable system that manages the loading screens of
+                  the game</b
+                >, collaborating with other engineers.
+              </li>
+              <li>
+                🎖️ Implemented the
+                <b>tutorial system/ping system for the game</b>, collaborating
+                with other engineers.
+              </li>
+              <li>
+                🎖️ Collaborated with more than
+                <b>300 individuals across the world in different timezones</b>
+                to develop a successful product.
+              </li>
+              <li>
+                🎖️ Achieved a <b>better optimization of the game assets</b>,
+                improving the game loading performance and memory.
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h4 class="pico-color-pink-450">Product manager (collaboration)</h4>
+            <p>
+              <img src="imgs/bevalk_logo.jpeg" alt="Bevalk logo" />
+              <b>Bevalk | 01 2025 - Now</b>
+            </p>
+            <hr />
+            <p>An app focused on individual's cyberseucity.</p>
+            <ul>
+              <li>
+                🎖️ Defined and validated the product's functionalities for the
+                MVP
+              </li>
+              <li>
+                🎖️ Conceptualization of subscription-based monetization models
+                for the product
+              </li>
+              <li>
+                🟣 Designing the main user experience as well as the product's
+                usability
+              </li>
+              <li>
+                🟣 Close collaboration with Data Analysts, marketing, and the
+                development team
+              </li>
+              <li>
+                🟣 Continuous analysis of the market and current community needs
+                in cybersecurity
+              </li>
+              <li>
+                🟣 Actively building the product's MVP, managing the product
+                roadmap, and prioritizing core functionalities
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h4 class="pico-color-pink-450">LinkedIn Learning Instructor</h4>
+            <p>
+              <img src="imgs/linklogo.png" alt="LinkedIn logo" />
+              <b>LinkedIn | 01 2020 - Now</b>
+            </p>
+            <hr />
+            <p>
+              Creating courses on Design, UX, UI, Game and Software development
+              for LinkedIn Learning.
+            </p>
+            <ul>
+              <li>🎖️ More than 50.000+ students</li>
+              <li>🎖️ 10 courses right now!</li>
+            </ul>
+          </article>
+        </details>
+
+        <!-- Achievements -->
         <details>
-            <summary role="button" class="outline contrast pico-color-pink-450"><b>Cool projects 🪄</b></summary>
-            <hr>
-            <br>
-            <h6>Latest web development projects 2024-2025</h6>
-            <div>
-                <article>
-                    <h3>
-                        <a href="https://github.com/desiremcarm/Dnd_Docker_Express/blob/main/imgs/ui.png
-                        ">DnD API with Express, Node-Fetch and Docker</a>
-                    </h3>
-                    <p>
-                        A page where you can check different DnD classes, spells and monsters. Connected with DnD API 5e. You can 
-                        get this project up and running in your local with Docker!
-                    </p>
-                    <hr>
-                    <img src="https://github.com/desiremcarm/Dnd_Docker_Express/blob/main/imgs/ui.png?raw=true" alt="">
-                </article>
-            </div>
-
-            <br>
-            <h6>Latest personal design project 2024-2025</h6>
-            <div>
-                <article>
-                    <h3>
-                        <a href="https://www.behance.net/gallery/199709317/PsyHi-Online-therapy-app">
-                            Psyhi - Online Therapy
-                        </a>
-                    </h3>
-                    <p>
-                        A personal design project I created to give some space to my creative side.
-                    </p>
-                    <img style="border-radius: 12px;" src="img/psyhicover.png" alt="">
-                </article>
-            </div>
-
-            <br>
-            <h6>Gaming projects 2020-2021</h6>
-            <div>
-                <article>
-                    <h3>
-                        <a href="https://helleworld.itch.io/they-come-at-night-demo">
-                            They come at night</a>
-                    </h3>
-                    <p>
-                        A very short and simple game 2d-shooter in third person - you're the last scientist in a forgotten vault,
-                        humanity has seen better days... But you won't if you don't scape soon enough. Beware of the mutants!
-                    </p>
-                    
-                    <div style="text-align:center; padding:0.5em">    
-                        <iframe style="border-radius:12px" width="560" height="315" src="https://www.youtube.com/embed/cCbDevm5SMw?si=G88XeoTnDL5Nkn_Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </article>
-                    </div>
-            </div>
-
-            <div>
-                <article>
-                    <h3>
-                        <a href="https://helleworld.itch.io/space-walk-project">
-                            Space Walk Shooter</a>
-                    </h3>
-                    <p>
-                        A very short and simple game 2d-shooter in third person, you're an alien and must scape the weird planet
-                        where you landed... BUT BEWARE! There are enemies everywhere trying to defeat you.
-                    </p>
-                    <p>
-                        Althought this is a very simple project, it is very important to me. This was the first official game I've ever created, and the first time I earned some money from a game I developed.
-                    </p>
-                    <div style="text-align:center; padding:0.5em">                    
-                        <iframe style="border-radius:12px;" width="560" height="315" src="https://www.youtube.com/embed/1Tz00O-qBmk?si=379EDa1hj5133436" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </article>
-            </div>
-
-            <br>
-            <h6>
-                Web projects 2018-2020
-            </h6>
-            <div>
-                <article>
-                    <h3>
-                        <a href="https://www.npmjs.com/package/scss-mediaq">SCSS Mediaqueries NPM</a>
-                    </h3>
-                    <p>
-                        A tiny NPM package containing commonly used media queries in SCSS. <mark>It is still in use!</mark>
-                    </p>
-                    <img style="border-radius: 12px;" src="img/scssmedia.png" alt="">
-                </article>
-                <article>
-                    <h3>
-                        <a href="https://dealingarden.netlify.app/#/">Dealingarden</a>
-                    </h3>
-                    <p>
-                        A simple project where you can search for a game's cheapest offer across many markets!
-                    </p>
-                    <img style="border-radius: 12px;" src="img/sims.png" alt="">
-                </article>
-            </div>
-            <hr>
+          <summary role="button" class="pico-background-indigo-600">
+            <b>Most revelant certifications 🏆</b>
+          </summary>
+          <ul>
+            <li>
+              <img src="imgs/microsoft.png" alt="Microsoft logo" />
+              <img src="imgs/linklogo.png" alt="LinkedIn logo" />
+              <a
+                href="https://www.linkedin.com/learning/certificates/982e3d25da4e7d2414f5f63b76e3cd4dd5756477c6d28dbc44e2a8fdff1ad1d4"
+                >Essentials in Cybersecurity by Microsoft & LinkedIn</a
+              >
+            </li>
+            <li>
+              <img src="imgs/nasba.png" alt="Microsoft logo" />
+              <img src="imgs/linklogo.png" alt="LinkedIn logo" />
+              <a
+                href="https://www.linkedin.com/learning/certificates/b8eb2d1d3d4ff63b007bce3312aee0ebc9edeb4278a5ac11c85a96291fe4264e?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BMSqoADErTbW3XUPIvIflXg%3D%3D"
+              >
+                Cybersecurity Awareness by NASBA, PMI & LinkedIn
+              </a>
+            </li>
+          </ul>
         </details>
-         </article>
-    
-      </body>
-    </main>
-
-  <hr>
-
-  <!-- FOOTER -->
+      </div>
+    </div>
+  </body>
   <footer>
-    <p>
-        By Desiré Marrón 💖, 2025
-    </p>
-    <a class="mail" href="mailto:hello@desiredev.es">
-        hello@desiredev.es
-    </a>
+    <hr />
+    <p>By Desiré Marrón 💖, 2025</p>
+    <a href="mailto:hello@desiredev.es">hello@desiredev.es</a>
+    <hr />
   </footer>
-
 </html>
