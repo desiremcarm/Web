@@ -94,3 +94,28 @@ p img {
   width: 20px;
   margin-right: 10px;
 }
+
+/*
+  REPONSIVE
+*/
+
+@media (max-width: 601px) and (max-width: 900px) {
+  #name {
+    display: none;
+  }
+
+  body p,
+  article p,
+  article ul li {
+    font-size: 16px !important;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #certs li {
+    padding: 10px;
+    border-bottom: 1px solid #6528f7;
+  }
+}
