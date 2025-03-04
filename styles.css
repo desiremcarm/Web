@@ -20,7 +20,7 @@ nav {
   border-radius: 50px;
   height: auto;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -33,13 +33,21 @@ img {
   transition: border-bottom 0.3s ease;
 }
 
+nav a {
+  color: #f3f8ff;
+}
+
 a {
   text-decoration: none;
   transition: color 0.3s ease !important;
 }
 
 a:hover {
-  color: #f3f8ff;
+  color: #56021f;
+}
+
+nav a:hover {
+  color: #fdb7ea;
 }
 
 li img {
@@ -76,6 +84,7 @@ nav ul li img:hover {
 
 ul li {
   list-style-type: none !important;
+  margin-left: -15px;
 }
 
 li img {
@@ -91,8 +100,29 @@ article {
 }
 
 p img {
-  width: 20px;
-  margin-right: 10px;
+  width: 30px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+#banner {
+  max-width: 40%;
+}
+
+.hobbies_holder {
+  display: flex;
+}
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65px;
+}
+
+.hobby svg {
+  margin-top: 10px;
+  width: 50px;
 }
 
 /*
@@ -111,7 +141,7 @@ p img {
   }
 
   #banner {
-    width: 100%;
+    max-width: 100%;
   }
 
   #certs li {
